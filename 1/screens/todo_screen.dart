@@ -1,39 +1,3 @@
-// import 'package:flutter/material.dart';
-// import 'package:flutter_application_1/screens/add_todo_screen.dart';
-// import '../models/todo.dart';
-// import '../widgets/todo_card.dart';
-
-// class HomeScreen extends StatelessWidget {
-//   final List<TodoList> lists = [
-//     TodoList(name: 'Sleep', description: 'SleepNow', status: 'Done'),
-//     TodoList(name: 'Eat', description: 'EatNow', status: 'Done')
-//   ];
-
-//   HomeScreen({super.key});
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       appBar: AppBar(title: Text('My Todolist')),
-//       body: ListView.builder(
-//         itemCount: lists.length,
-//         itemBuilder: (context, index) {
-//           return TodoCard(list: lists[index]);
-//         },
-//       ),
-//       floatingActionButton: FloatingActionButton(
-//         child: Icon(Icons.add),
-//         onPressed: () {
-//           Navigator.push(
-//             context,
-//             MaterialPageRoute<void>(
-//               builder: (context) => const AddTodoScreen(),
-//             ));
-//         }),
-//     );
-//   }
-// }
-
 import 'package:flutter/material.dart';
 import '../models/todo.dart';
 import '../widgets/todo_card.dart';
